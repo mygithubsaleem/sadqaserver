@@ -27,9 +27,9 @@ const middleware = (req, res, next) => {
 	next();
 };
 
-app.get("/about", middleware, (req, res) => {
-	res.send("About page fund...app js");
-});
+// app.get("/about", middleware, (req, res) => {
+// 	res.send("About page fund...app js");
+// });
 
 // app.listen(3000, () => {
 // 	console.log("Server is running at port 3000 fund fund fund....");
